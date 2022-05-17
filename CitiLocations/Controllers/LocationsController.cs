@@ -15,7 +15,7 @@ namespace CitiLocations.Controllers
 
 
 
-        public async Task<IActionResult> searchjobs(string location, int radius)
+        public async Task<IActionResult> getLocations(string location, int radius)
         {
 
 
